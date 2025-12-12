@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(25, 49, 58);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.mother{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.son2{
+    display: flex;
+    flex-direction: row ;
+    gap: 5px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 8px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+h2 {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+h2:hover {
+    color: rgb(84, 174, 209); /* change to any color you like */
+}
+.faith {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+p{
+    color: white    ;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.same-size {
+            width: 620px;   /* Set desired width */
+            height: 300px;  /* Set desired height */
+            object-fit: cover; /* Ensures image fills the box without distortion */
+        }
+
+.son2{
+    display: flex;
+    flex-direction: row;
+}
+.heart{
+    display: flex;
+    flex-direction: column;
+}
